@@ -1,8 +1,31 @@
 body {
+  width: 100em;
+  height: auto;
+  background-image: url(../images/cinema.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
+div {
+  margin-left: 50em;
+  margin-top: 30vh;
+  color: white;
+  font-size: 1em;
+}
+
 a {
   color: #00B7FF;
+}
+
+button {
+  border-radius: 20%;
+  font-size: 3em;
+  font:bold;
+  color: rgb(52, 201, 235);
 }
